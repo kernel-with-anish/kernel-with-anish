@@ -9,11 +9,9 @@
 ## 🏆 Achievements & Hackathons
 
 - 🥇 **Winner – Code Clash 2.0** @ *Google Office*  
-  → Built a **real-time collaboration tool** with live infra scaling on GCP.  
-
+  → 
 - 🥈 **Runner-up – Code Cubicle 4.0** @ *Microsoft Office*  
-  → Designed a **predictive AI-driven student mentor platform**, deployed via Azure Functions.  
-
+  →
 - 💡 **MVP Pitches & Products**  
   - 🚕 *QuickRide AI* – pitched a dynamic carpool matching engine using geospatial clustering.  
   - 🏥 *MedVault* – prototype for HIPAA-compliant patient data management (Docker + Kubernetes).  
