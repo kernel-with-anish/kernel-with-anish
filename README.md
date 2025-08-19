@@ -9,9 +9,7 @@
 ## 🏆 Achievements & Hackathons
 
 - 🥇 **Winner – Code Clash 2.0** @ *Google Office*  
-  → 
 - 🥈 **Runner-up – Code Cubicle 4.0** @ *Microsoft Office*  
-  →
 - 💡 **MVP Pitches & Products**  
   - 🚕 *QuickRide AI* – pitched a dynamic carpool matching engine using geospatial clustering.  
   - 🏥 *MedVault* – prototype for HIPAA-compliant patient data management (Docker + Kubernetes).  
