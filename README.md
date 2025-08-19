@@ -33,7 +33,7 @@
 
 ## 📜 Certifications
 
-- ✅ **AWS Solutions Architect – Associate (SAA-C03)**  
+- ✅ **AWS Solutions Architect – Associate (SAA-C03)**  (in progress!)
 - 📌 Kubernetes & Terraform (Hands-on Projects)
 
 ---
