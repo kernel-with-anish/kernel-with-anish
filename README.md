@@ -1,47 +1,19 @@
-<h1 align="center">🚀 Hey, I'm Anish Krishna Sharma </h1>
+# Cloud Shop — SQL Sales Insights
 
-<p align="center">
-  <b>Cloud & Backend Engineer | DevOps Practitioner | AWS Certified Solutions Architect</b>  
-</p>
+📊 Advanced SQL mini-project using SQLite + Python.  
+Learned **CTEs, subqueries, window functions** while building insights.
 
----
+### Insights
+- Monthly revenue trend 📈
+- Region-wise revenue 🌍
+- Top products by revenue 🏆
 
-## 🏆 Achievements & Hackathons
+### Visuals
+![Revenue](images/monthly_revenue.png)
+![Regions](images/revenue_by_region.png)
+![Products](images/top_products.png)
 
-- 🥇 **Winner – Code Clash 2.0** @ *Google Office*  
-- 🥈 **Runner-up – Code Cubicle 4.0** @ *Microsoft Office*  
-- 💡 **MVP Pitches & Products**  
-  - 🚕 *QuickRide AI* – pitched a dynamic carpool matching engine using geospatial clustering.  
-  - 🏥 *MedVault* – prototype for HIPAA-compliant patient data management (Docker + Kubernetes).  
-  - 🎶 *BeatFlow* – ML-powered playlist generator with microservices backend.  
-
----
-
-## ⚙️ Core Tech Skills
-
-- ☁️ **Cloud & Infra** – AWS (EC2, S3, Lambda, IAM, VPC) | GCP Basics | Terraform  
-- 📦 **Containers & Orchestration** – Docker, Kubernetes  
-- 🔄 **CI/CD & Automation** – GitHub Actions, Jenkins  
-- 💾 **Backend Dev** – Python (FastAPI, Flask), REST APIs, SQL  
-- 📈 **Monitoring & Logs** – Prometheus, Grafana, ELK Stack  
-
----
-
-## 📜 Certifications
-
-- ✅ **AWS Solutions Architect – Associate (SAA-C03)**  (in progress!)
-- 📌 Kubernetes & Terraform (Hands-on Projects)
-
----
-
-## 📂 Projects (Deployed & Showcased)
-
-- 🔐 **SecureAuth** – OAuth2-based auth microservice, containerized and deployed on AWS ECS.  
-- 📊 **CloudOps Dashboard** – Real-time infra monitor built with React + Grafana backend.  
-- ⚡ **AutoScale CI/CD** – Pipeline that auto-deploys microservices to Kubernetes on commit.  
-
----
-
-## 💬 About Me
-Witty with words 🎤 and curious with code 💻 → I love **building & breaking systems**, then telling stories about them.  
-Currently working on **marrying communication + engineering** → exploring **DevRel / Tech Evangelism**.  
+### Run
+```bash
+pip install pandas faker matplotlib
+python project.ipynb  # or open in Jupyter
