@@ -1,0 +1,103 @@
+🚀 Python Strings – Learning Summary
+✅ Basics of Python Strings
+
+Strings are immutable sequences of characters.
+
+Initialization:
+s = "Hello, World!"
+
+Concatenation:
+s1 = "Hello" + " " + "World" → 'Hello World'
+
+Slicing:
+s = "Python" → s[0:4] gives 'Pyth'
+
+Repetition:
+"Ha" * 3 → 'HaHaHa'
+
+Deletion:
+del s removes the string variable.
+
+⚡ String Comparison
+
+Example:
+"apple" == "apple" → True
+"abc" < "abd" → True
+
+🔢 Convert Integer to String
+
+num = 123 → str_num = str(num) → '123'
+
+🔢 Convert String to Integer
+
+s = "456" → num = int(s) → 456
+
+🧱 Convert String to List
+
+s = "abcde" → list(s) → ['a', 'b', 'c', 'd', 'e']
+
+✅ String Exercise Example
+
+Remove vowels from string:
+
+s = "This is a string exercise"
+vowels = "aeiouAEIOU"
+result = "".join([c for c in s if c not in vowels])
+print(result)  # Output: Ths s  strng xrcs
+
+🚀 Escape Characters
+
+Newline: 'Line1\nLine2' →
+Line1
+Line2
+
+Tab: 'Tab\tSpace' → Tab Space
+
+Quotes: '\"Hello\"' → "Hello"
+
+🔁 Repeat the Strings
+
+"Repeat" * 3 → 'RepeatRepeatRepeat'
+
+🔧 Common String Functions
+
+len("Python") → 6
+
+"Hello".upper() → 'HELLO'
+
+"WORLD".lower() → 'world'
+
+" Hello ".strip() → 'Hello'
+
+"Python".replace('P', 'J') → 'Jython'
+
+"abcabc".find('b') → 1
+
+"banana".count('a') → 3
+
+🔽 Convert String to Lowercase
+
+"PYTHON IS COOL".lower() → 'python is cool'
+
+🚫 Remove Duplicate Characters
+s = "aabbcc"
+unique = "".join(sorted(set(s)))
+print(unique)  # Output: abc
+
+🔄 Reverse String
+s = "Python"
+reversed_s = s[::-1]
+print(reversed_s)  # Output: nohtyP
+
+✅ Check Palindrome
+s = "madam"
+is_palindrome = s == s[::-1]
+print(is_palindrome)  # Output: True
+
+🎯 Python String Quiz Example
+
+Check substring presence:
+
+s = "I love Python"
+print("Python" in s)  # Output: True
+print("Java" in s)    # Output: False
